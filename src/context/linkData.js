@@ -1,27 +1,27 @@
 export const linkData = [
   {
     id: 1,
-    text: 'home',
-    path: '/'
+    text: "home",
+    path: "/"
   },
   {
     id: 2,
-    text: 'about',
-    path: '/about'
+    text: "about",
+    path: "/about"
   },
   {
     id: 3,
-    text: 'products',
-    path: '/product'
+    text: "products",
+    path: "/products"
   },
   {
     id: 4,
-    text: 'contact',
-    path: '/contact'
+    text: "contact",
+    path: "/contact"
   },
   {
     id: 3,
-    text: 'cart',
-    path: '/cart'
+    text: "cart",
+    path: "/cart"
   }
 ]
