@@ -22,8 +22,6 @@ const HeroWrapper = styled.div`
   color: var(--mainWhite);
   background: linear-gradient(var(--primaryRGBA), var(--primaryRGBA)),
     url(${props => props.img}) center/cover no-repeat;
-  .banner {
-  }
   .title {
     padding-top: 2rem;
     font-size: 3.5rem;
