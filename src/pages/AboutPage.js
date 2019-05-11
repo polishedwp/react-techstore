@@ -1,11 +1,13 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
+import Hero from "../components/Hero"
+import Info from "../components/AboutPage/Info"
+import aboutBcg from "../images/aboutBcg.jpeg"
 
-export default class AboutPage extends Component {
-  render() {
-    return (
-      <>
-        <h1>Hello from About Page</h1>
-      </>
-    );
-  }
+export default function AboutPage() {
+  return (
+    <>
+      <Hero img={aboutBcg} />
+      <Info />
+    </>
+  )
 }
