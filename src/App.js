@@ -12,12 +12,19 @@ import Error from "./pages/DefaultPage";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
+import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
+import SideCart from "./components/SideCart";
+import Footer from "./components/Footer";
+
 class App extends Component {
   render() {
     return (
       <>
         <Router>
-          {/* navbar, sidebar, cart,footer*/}
+          <Navbar />
+          <Sidebar />
+          <SideCart />
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/about" component={About} />
@@ -27,6 +34,7 @@ class App extends Component {
             <Route path="/cart" component={Cart} />
             <Route component={Error} />
           </Switch>
+          <Footer />
         </Router>
       </>
     );
